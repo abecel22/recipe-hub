@@ -13,6 +13,12 @@ export class RecipeListComponent implements OnInit {
       'This is simply a test',
       // tslint:disable-next-line:max-line-length
       'http://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2017/06/main/creole-shrimp-creamed-corn-1708p110.jpg?itok=VRNFsss0'
+    ),
+    new Recipe(
+      'A Test Recipe',
+      'This is simply a test',
+      // tslint:disable-next-line:max-line-length
+      'http://img1.cookinglight.timeinc.net/sites/default/files/styles/4_3_horizontal_-_1200x900/public/image/2017/06/main/creole-shrimp-creamed-corn-1708p110.jpg?itok=VRNFsss0'
     )
   ];
   constructor() {}
